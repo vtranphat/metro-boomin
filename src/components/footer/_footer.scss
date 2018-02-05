@@ -1,0 +1,21 @@
+
+/* FOOTER  */
+.footer {
+    width: 1200px;
+    margin: 0 auto;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 30px;
+}
+.footer__index {
+    display: flex;
+    align-items: center;
+}
+.footerIndex__line{
+    width: 120px;
+    height: 1px;
+    background: #4A4A4A;
+    transform: translateY(50%);
+    margin: 0 16px;
+}
