@@ -1,3 +1,54 @@
-
 /* HOME  */
-
+.home {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background:url(../../../dist/img/home_bg.png);
+    background-size: cover;
+    color: white;
+}
+.home__title {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 1200px;
+    margin:0 auto;
+}
+.homeTitle__bigtitle {
+    font-size: 186px;
+    font-weight: 700;
+    text-align: left;
+    margin: 0;
+    transform: translateX(-12px);
+}
+.homeTitle__liltitle {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+}
+.home__illustration {
+    position: absolute;
+    right: 0;
+}
+.homeIllustration__circle {
+    width: 721px;
+    height: 721px;
+    background:#F1CE56;
+    border-radius: 50%;
+    box-shadow: 0px 7px 60px 1px rgba(0, 0, 0, 0.2);
+}
+.homeIllustration__metro {
+    position: absolute;
+    width: 650px;
+    top: -12px;
+    right: -40px;
+}
+.homeIllustration__main {
+    position: absolute;
+    width: 650px;
+    top: -12px;
+    right: -40px;
+    z-index: 9000;
+}

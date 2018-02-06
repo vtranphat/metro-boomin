@@ -6,7 +6,7 @@
 import Vue from 'vue';
 
 export default {
-  name: 'footers',
+  name: 'home',
   mounted: function() {
       
   }

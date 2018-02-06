@@ -7,15 +7,17 @@
     left: 50%;
     transform: translateX(-50%);
     bottom: 30px;
+    color: white;
 }
 .footer__index {
     display: flex;
     align-items: center;
+    font-size: 18px;
 }
 .footerIndex__line{
     width: 120px;
     height: 1px;
-    background: #4A4A4A;
+    background:white;
     transform: translateY(50%);
     margin: 0 16px;
 }
